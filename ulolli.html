@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <ul> <ol> <li></title>    
+    <title>Définition <ul> <ol> <li></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -19,7 +21,7 @@
         <li><a href="biu.html">B, I, U</a></li>
         <li><a href="pre.html">PRE</a></li> 
         <li><a href="p.html">P</a></li> 
-        <li><a href="ulolli.html">UL, OL, LI</a></li>
+        <li><a class="encours" href="ulolli.html">UL, OL, LI</a></li>
         <li><a href="br.html">BR</a></li>
         <li><a href="hr.html">HR</a></li>  
         <li><a href="table.html">TABLE, TD, TR...</a></li>
@@ -42,13 +44,15 @@
     <main>
       <div id="definition">
         <h2>Définition des balises ul ol et li</h2>
+        <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
         <p>Les balises ol et ul servent à créer des listes odonnées ( pour < ol > ) et désordonnées ( pour < ul > ).<br> 
            La balise < li > sert à représenter un élément dans une liste, donc elle doit être contenu dans un élément parent ( ol ou ul ).</p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
         <p><xmp><ol></xmp>
              <xmp><li>Préparer la table</li></xmp>
@@ -58,8 +62,9 @@
            <xmp><ul></xmp>
              <xmp><li>Préparer la table</li></xmp>
              <xmp><li>Mettre les assiettes</li></xmp>
-           <xmp></ul></xmp></p>
+           <xmp></ul></xmp></p></div>
         <h3>Résultat</h3>
+        <div class="paragraphes">
 <!--Montrer le résultat de la balise HTML-->
         <ol>
             <li>Préparer la table</li>
@@ -70,7 +75,7 @@
             <li>Mettre les assiettes</li>
         </ul>
         <p><em>Du coup, on remarque bien la liste ordonnée ( avec la suite numérotée ), et la liste désordonnée avec les puces.</em></p>
-      </div>
+      </div></div>
     </main>
     <footer>
       <p><em>Créé par</em> <strong>les D Codeurs du Lac</strong></p>

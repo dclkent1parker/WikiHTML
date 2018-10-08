@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <table></title>    
+    <title>Définition <table></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -22,7 +24,7 @@
         <li><a href="ulolli.html">UL, OL, LI</a></li>
         <li><a href="br.html">BR</a></li>
         <li><a href="hr.html">HR</a></li>  
-        <li><a href="table.html">TABLE, TD, TR...</a></li>
+        <li><a class="encours" href="table.html">TABLE, TD, TR...</a></li>
         <li><a href="img.html">IMG</a></li>
         <li><a href="a.html">A</a></li>
         <li><a href="h.html">H</a></li>
@@ -42,15 +44,17 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <table></xmp></h2>
+          <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
         <p><xmp>La balise <table> est un conteneur très utilisé dans les pages web.</xmp>
            <xmp>Elle facilite la mise en forme des informations grâce à son découpage en lignes et cellules complètement paramétrables, comme un tableau.</xmp>
            <xmp>Cette balise va de pair avec d'autres balises: <tr> <td> <th></xmp>
            <xmp>La première, <tr> sert à définir une ligne, la deuxième <td> sert à rentrer des données dans une cellule et la troisième <tr> sert à définir une ligne.</xmp></p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
         <p><xmp><table></xmp>
            <xmp><tr></xmp>
@@ -61,8 +65,9 @@
            Prénom
            <xmp></td></xmp>
            <xmp></tr></xmp>
-           <xmp></table></xmp></p>
+           <xmp></table></xmp></p></div>
         <h3>Résultat</h3>
+        <div class="paragraphes">
         <table>
           <tr>
             <td>
@@ -72,7 +77,7 @@
                 Prénom
             </td>
           </tr>
-        </table>
+        </table></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

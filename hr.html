@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <hr></title>    
+    <title>Définition <hr></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -21,7 +23,7 @@
         <li><a href="p.html">P</a></li> 
         <li><a href="ulolli.html">UL, OL, LI</a></li>
         <li><a href="br.html">BR</a></li>
-        <li><a href="hr.html">HR</a></li>  
+        <li><a class="encours" href="hr.html">HR</a></li>  
         <li><a href="table.html">TABLE, TD, TR...</a></li> 
         <li><a href="img.html">IMG</a></li>
         <li><a href="a.html">A</a></li>
@@ -42,27 +44,30 @@
     <main>
       <div id="definition">
         <h2>Définition de la  balise < hr ></h2>
+        <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
           <p><xmp>La balise <hr> définit une rupture thématique dans une page HTML (par exemple, un changement de sujet).</xmp></p>
           <p><xmp>L'élément <hr> est utilisé pour séparer le contenu (ou définir un changement) dans une page HTML.</xmp></p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
           <p><xmp><p>ici se trouve mon premier paragraphe</p></xmp></p>
 
             <xmp><hr></xmp>
 
-          <p><xmp><p>ici se trouve mon deuxième paragraphe</p></xmp></p>
+          <p><xmp><p>ici se trouve mon deuxième paragraphe</p></xmp></p></div>
 <!--Ecrire les balises HTML dans le paragraphe-->
         <h3>Résultat</h3>
+        <div class="paragraphes">
           <p>ici se trouve mon premier paragraphe</p>
 
           <hr>
 
           <p>ici se trouve mon deuxième paragraphe</p>
 <!--Montrer le résultat de la balise HTML-->
-      </div>
+      </div></div>
     </main>
     <footer>
       <p><em>Créé par</em> <strong>les D Codeurs du Lac</strong></p>

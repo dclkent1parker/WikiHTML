@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition balise <BR></title>    
+    <title>Définition balise <BR></title> 
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">    
   </head>
 
   <body>
@@ -20,7 +22,7 @@
         <li><a href="pre.html">PRE</a></li> 
         <li><a href="p.html">P</a></li> 
         <li><a href="ulolli.html">UL, OL, LI</a></li>
-        <li><a href="br.html">BR</a></li>
+        <li><a class="encours" href="br.html">BR</a></li>
         <li><a href="hr.html">HR</a></li>  
         <li><a href="table.html">TABLE, TD, TR...</a></li>
         <li><a href="img.html">IMG</a></li>
@@ -42,18 +44,21 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <BR></xmp></h2>
+          <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
           <p><xmp>L'élément HTML <br> crée un saut de ligne (un retour à la ligne) dans le texte.</xmp></p>
           <p>Il s'avère utile lorsque les sauts de ligne ont une importance (par exemple lorsqu'on écrit une adresse ou un poème).</p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
-          <p><xmp>Ceci est un <br> exemple.</xmp></p>
+          <p><xmp>Ceci est un <br> exemple.</xmp></p></div>
         <h3>Résultat</h3>
+        <div class="paragraphes">
           <p>Ceci est un <br>
-        exemple.</p>
+        exemple.</p></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

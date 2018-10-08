@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <select></title>    
+    <title>Définition <select></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -30,7 +32,7 @@
         <li><a href="form.html">FORM</a></li>
         <li><a href="imput.html">INPUT</a></li>
         <li><a href="textarea.html">TEXTAREA</a></li>
-        <li><a href="select.html">SELECT</a></li>
+        <li><a class="encours" href="select.html">SELECT</a></li>
         <li><a href="meta.html">META</a></li>
         <li><a href="head.html">HEAD</a></li>
         <li><a href="link.html">LINK</a></li>
@@ -42,32 +44,35 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <select></xmp></h2>
+          <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
         <p><xmp>Les balises <select> et </select> permettent de créer une liste déroulante avec différentes options,</xmp> 
            <xmp>qui sont définis  avec les balises <option> et </option>.</xmp></p>
-      </div>
+      </div></div>
 
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
         <p><xmp>Voici un exemple de code html contenant les balises <select> et </select> :</xmp></p>
         <p><xmp><select></xmp>
            <xmp><option value="volvo">Volvo</option></xmp>
            <xmp><option value="saab">Saab</option></xmp> 
            <xmp><option value="mercedes">Mercedes</option></xmp>
            <xmp><option value="audi">Audi</option></xmp>
-           <xmp></select></xmp> 
+           <xmp></select></xmp> </div>
         </p>
 <!--Ecrire les balises HTML dans le paragraphe-->
         <p></p>
         <h3>Résultat</h3>
+        <div class="paragraphes">
         <p> Voici le résultat de ces lignes de codes :</p>
         <select>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
-          </select> 
+          </select> </div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

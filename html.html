@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <html></title>    
+    <title>Définition <html></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -14,7 +16,7 @@
     <nav>
         <ul>
           <li><a href="body.html">BODY</a></li>
-          <li><a href="html.html">HTML</a></li>
+          <li><a class="encours" href="html.html">HTML</a></li>
           <li><a href="title.html">TITLE</a></li>
           <li><a href="biu.html">B, I, U</a></li>
           <li><a href="pre.html">PRE</a></li> 
@@ -42,12 +44,15 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <html></xmp></h2>
-<!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
-          <p><xmp>HyperText Markup Language, généralement abrégé par <HTML> </HTML>, est le langage de balisage conçu pour représenter les pages web. C'est un langage permettant d'écrire de l'hypertexte, d'où son nom.</xmp></p>
-      </div>
+        <div class="paragraphes">
+          <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
+          <p><xmp>HyperText Markup Language, généralement abrégé par <HTML> </HTML>, est le langage de balisage conçu pour représenter les pages web.</xmp>
+          <p>C'est un langage permettant d'écrire de l'hypertexte, d'où son nom.</p>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
           <p><xmp><!DOCTYPE HTML></xmp></p>
           <p><xmp><html></xmp></p>
@@ -57,9 +62,10 @@
           <p><xmp>  <body></xmp></p>
           <p><pre>    Ceci est un exemple</pre></p>
           <p><xmp>  </body></xmp></p>
-          <p><xmp></html></xmp></p>
+          <p><xmp></html></xmp></p></div>
         <h3>Résultat</h3>
-        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em>
+        <div class="paragraphes">
+        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

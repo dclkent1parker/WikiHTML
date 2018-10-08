@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition balise <!DOCTYPE></title>    
+    <title>Définition balise <!DOCTYPE></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -35,7 +37,7 @@
         <li><a href="head.html">HEAD</a></li>
         <li><a href="link.html">LINK</a></li>
         <li><a href="div.html">DIV</a></li>
-        <li><a href="doctype.html">DOCTYPE</a></li>
+        <li><a class="encours" href="doctype.html">DOCTYPE</a></li>
       </ul>
     </nav>
   
@@ -43,19 +45,22 @@
       <div id="definition">
         <h2><xmp>Définition de la balise <!DOCTYPE></xmp></h2>
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
+        <div class="paragraphes">
         <p>Un doctype (contraction de l'anglais document type, littéralement « type de document ») est une instruction au début des documents SGML et XML (comme les pages web) spécifiant sa règle de syntaxe.<br>
           Par exemple, pour le HTML5 le DOCTYPE en début de document spécifiera DOCTYPE HTML.
-        </p>
+        </p></div>
       </div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
           <p><xmp><!DOCTYPE html></xmp> <br>
           <xmp><html></xmp> <br>
-          <xmp></html></xmp></p>
+          <xmp></html></xmp></p></div>
         <h3>Résultat</h3>
-        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em >
+        <div class="paragraphes">
+        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em ></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

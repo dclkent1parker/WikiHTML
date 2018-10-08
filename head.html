@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <HEAD></title>    
+    <title>Définition <HEAD></title> 
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">    
   </head>
 
   <body>
@@ -32,7 +34,7 @@
         <li><a href="textarea.html">TEXTAREA</a></li>
         <li><a href="select.html">SELECT</a></li>
         <li><a href="meta.html">META</a></li>
-        <li><a href="head.html">HEAD</a></li>
+        <li><a class="encours" href="head.html">HEAD</a></li>
         <li><a href="link.html">LINK</a></li>
         <li><a href="div.html">DIV</a></li>
         <li><a href="doctype.html">DOCTYPE</a></li>
@@ -42,19 +44,22 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <head></xmp></h2>
+          <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
           <p><xmp>L'élément <head> est un conteneur pour tous les éléments head.</xmp>
             <xmp>L'élément <head> peut inclure un titre pour le document, des scripts, des styles, des méta-informations, etc.</xmp></p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
           <p><xmp><head></xmp> 
               <xmp><title>mon titre</title></xmp>
-              <xmp></head></xmp></p>
+              <xmp></head></xmp></p></div>
         <h3>Résultat</h3>
-        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em>
+        <div class="paragraphes">
+        <em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

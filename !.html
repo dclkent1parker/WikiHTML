@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <!...></title>    
+    <title>Définition <!...></title>
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>
 
   <body>
@@ -26,7 +28,7 @@
         <li><a href="img.html">IMG</a></li>
         <li><a href="a.html">A</a></li>
         <li><a href="h.html">H</a></li>
-        <li><a href="!.html">!..</a></li>
+        <li><a class="encours" href="!.html">!..</a></li>
         <li><a href="form.html">FORM</a></li>
         <li><a href="imput.html">INPUT</a></li>
         <li><a href="textarea.html">TEXTAREA</a></li>
@@ -42,18 +44,21 @@
     <main>
       <div id="definition">
         <h2>Définition de la balise < !--- ... ---></h2>
+        <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
-          <p><xmp>En HTML5, les commentaires indiqués entre les balises <!--- ... ---> ne s’affichent pas dans le navigateurs.</xmp></p>
-          <p>Ils sont insérés dans le code source et servent de repères. Les commentaires peuvent tenir sur plusieurs lignes.</p> 
+          <p><xmp>En HTML5, les commentaires indiqués entre les balises <!--- ... ---> ne s’affichent pas dans le navigateur.</xmp></p>
+          <p>Ils sont insérés dans le code source et servent de repères. Les commentaires peuvent tenir sur plusieurs lignes.</p></div> 
       </div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
-          <p><xmp><!---Ceci est un exemple---></xmp></p>
+          <p><xmp><!---Ceci est un exemple---></xmp></p></div>
           <h3>Résultat</h3>
+          <div class="paragraphes">
           <p><em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em></p>
-<!--Montrer le résultat de la balise HTML-->
+<!--Montrer le résultat de la balise HTML--></div>
       </div>
     </main>
     <footer>

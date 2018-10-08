@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <Body></title>    
+    <title>Définition <Body></title>   
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet"> 
   </head>
 
   <body>
@@ -13,7 +15,7 @@
     </header>
     <nav>
       <ul>
-        <li><a href="body.html">BODY</a></li>
+        <li><a class="encours" href="body.html">BODY</a></li>
         <li><a href="html.html">HTML</a></li>
         <li><a href="title.html">TITLE</a></li>
         <li><a href="biu.html">B, I, U</a></li>
@@ -41,16 +43,19 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <body></xmp></h2>
+          <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
-          <p><xmp>L'élément <body> représente le contenu principal du document HTML, soit le corps du document. Il ne peut y avoir qu'un élément <body> par document.</xmp></p>
+          <p><xmp>L'élément <body> représente le contenu principal du document HTML, soit le corps du document. Il ne peut y avoir qu'un élément <body> par document.</xmp></p></div>
       </div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
-          <p><xmp><body>Ceci est un exemple</body></xmp></p>
+          <p><xmp><body>Ceci est un exemple</body></xmp></p></div>
         <h3>Résultat</h3>
-          <p> <body>Ceci est un exemple</body></p>
+        <div class="paragraphes">
+          <p> <body>Ceci est un exemple</body></p></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>

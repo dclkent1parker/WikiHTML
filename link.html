@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition balise <link></title>    
+    <title>Définition balise <link></title> 
+    <link rel="stylesheet" href="css\style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">    
   </head>
 
   <body>
@@ -33,7 +35,7 @@
         <li><a href="select.html">SELECT</a></li>
         <li><a href="meta.html">META</a></li>
         <li><a href="head.html">HEAD</a></li>
-        <li><a href="link.html">LINK</a></li>
+        <li><a class="encours" href="link.html">LINK</a></li>
         <li><a href="div.html">DIV</a></li>
         <li><a href="doctype.html">DOCTYPE</a></li>
       </ul>
@@ -42,18 +44,21 @@
     <main>
       <div id="definition">
         <h2><xmp>Définition de la balise <link></xmp></h2>
+        <div class="paragraphes">
 <!--Mettre la définition de la balise présentée entre les balises paragraphe <p>-->
           <p><xmp>L'élément HTML <link> définit la relation entre le document courant et une ressource externe.</xmp></p>
           <p><xmp>Cet élément peut être utilisé pour définir un lien vers une feuille de style ou un cadre de navigation (accéder à la même page dans une langue différente par exemple).</xmp></p>
           <p><xmp>L'élément <link> peut inclure plusieurs attributs, comme par exemple href qui servira à définir l'URL de la ressource liée.</xmp></p>
-      </div>
+      </div></div>
       <div id="exemple">
         <h2>Exemple</h2>
         <h3>HTML</h3>
+        <div class="code">
 <!--Ecrire les balises HTML dans le paragraphe-->
-          <p><xmp><link  href = "style.css" rel ="stylesheet"></xmp></p>
+          <p><xmp><link  href = "style.css" rel ="stylesheet"></xmp></p></div>
         <h3>Résultat</h3>
-          <p><em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em> </p>
+        <div class="paragraphes">
+          <p><em>Cette balise n'est pas visible en résultat, car elle a servit à la construction de ce site.</em> </p></div>
 <!--Montrer le résultat de la balise HTML-->
       </div>
     </main>
