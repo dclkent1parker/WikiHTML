@@ -13,31 +13,7 @@
       <?php include ("header.php"); ?>
     </header>
     <nav>
-      <ul>
-        <li><a class="encours" href="body.html">BODY</a></li>
-        <li><a href="html.html">HTML</a></li>
-        <li><a href="title.html">TITLE</a></li>
-        <li><a href="biu.html">B, I, U</a></li>
-        <li><a href="pre.html">PRE</a></li> 
-        <li><a href="p.html">P</a></li> 
-        <li><a href="ulolli.html">UL, OL, LI</a></li>
-        <li><a href="br.html">BR</a></li>
-        <li><a href="hr.html">HR</a></li>  
-        <li><a href="table.html">TABLE, TD, TR...</a></li> 
-        <li><a href="img.html">IMG</a></li>
-        <li><a href="a.html">A</a></li>
-        <li><a href="h.html">H</a></li>
-        <li><a href="!.html">!..</a></li>
-        <li><a href="form.html">FORM</a></li>
-        <li><a href="imput.html">INPUT</a></li>
-        <li><a href="textarea.html">TEXTAREA</a></li>
-        <li><a href="select.html">SELECT</a></li>
-        <li><a href="meta.html">META</a></li>
-        <li><a href="head.html">HEAD</a></li>
-        <li><a href="link.html">LINK</a></li>
-        <li><a href="div.html">DIV</a></li>
-        <li><a href="doctype.html">DOCTYPE</a></li>
-      </ul>
+    <?php include ("menu.php");?>
     </nav>
     <main>
       <div id="definition">

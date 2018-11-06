@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
 <!--Rajouter le nom de la balise à la place du mot "balise" dans le titre-->
-    <title>Définition <html></title>
+    <title>Définition < html ></title>
     <link rel="stylesheet" href="css\style.css">  
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Krub" rel="stylesheet">     
   </head>

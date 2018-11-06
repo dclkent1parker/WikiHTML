@@ -13,7 +13,7 @@
 <li><a href="img.php">IMG</a></li>
 <li><a href="a.php">A</a></li>
 <li><a href="h.php">H</a></li>
-<li><a class="encours" href="!.php">!..</a></li>
+<li><a href="!.php">!..</a></li>
 <li><a href="form.php">FORM</a></li>
 <li><a href="imput.php">INPUT</a></li>
 <li><a href="textarea.php">TEXTAREA</a></li>
